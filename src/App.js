@@ -1,5 +1,4 @@
 import Register from "./components/Register";
-import ipConfig from "./ipConfig.json";
 import { Route, Switch } from "react-router-dom";
 import Login from "./components/Login";
 import Products from "./components/Products";
@@ -8,7 +7,7 @@ import Thanks from "./components/Thanks"
 import React from "react";
 
 export const config = {
-  endpoint: `https://adi-qkart-frontend.herokuapp.com/api/v1`,
+  endpoint: `https://qkart-frontend-api.fly.dev/api/v1`,
 };
 
 function App() {
